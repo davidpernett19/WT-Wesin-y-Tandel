@@ -1,0 +1,270 @@
+*GPDSpecVersion: "1.0"
+*Include: "StdNames.gpd"
+*GPDFileVersion: "1.125.0"
+*GPDFileName: "DL726RZ.GPD"
+*ModelName: "RFID Printer DL-726RZ"
+*MasterUnits: PAIR(1218, 1218)
+*ResourceDLL: "RFIDPTRUI.dll"
+*PrinterType: PAGE
+*MaxCopies: 250
+
+*Feature: Orientation
+{
+    *rcNameID: =ORIENTATION_DISPLAY
+    *DefaultOption: PORTRAIT
+    *Option: PORTRAIT
+    {
+        *rcNameID: =PORTRAIT_DISPLAY
+    }
+    *Option: LANDSCAPE_CC270
+    {
+        *rcNameID: =LANDSCAPE_DISPLAY
+    }
+}
+*Feature: InputBin
+{
+    *rcNameID: =PAPER_SOURCE_DISPLAY
+		*ConcealFromUI? : TRUE
+    *DefaultOption: ROLLER
+    *Option: ROLLER
+    {
+        *rcNameID: 999
+    }
+}
+*Feature: Resolution
+{
+    *rcNameID: =RESOLUTION_DISPLAY
+    *DefaultOption: Option4
+    *Option: Option1
+    {
+        *Name: "1218 x 1218 " =DOTS_PER_INCH
+        *DPI: PAIR(1218, 1218)
+        *TextDPI: PAIR(1218, 1218)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 				*Command: CmdEndBlockData { *Cmd : "" }
+    }
+    *Option: Option2
+    {
+        *Name: "609 x 609 " =DOTS_PER_INCH
+        *DPI: PAIR(609, 609)
+        *TextDPI: PAIR(609, 609)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 				*Command: CmdEndBlockData { *Cmd : "" }
+    }
+    *Option: Option3
+    {
+        *Name: "406 x 406 " =DOTS_PER_INCH
+        *DPI: PAIR(406, 406)
+        *TextDPI: PAIR(406, 406)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 				*Command: CmdEndBlockData { *Cmd : "" }
+    }
+    *Option: Option4
+    {
+        *Name: "203 x 203 " =DOTS_PER_INCH
+        *DPI: PAIR(203, 203)
+        *TextDPI: PAIR(203, 203)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 				*Command: CmdEndBlockData { *Cmd : "" }
+    }
+}
+
+*Feature: PaperSize
+{
+    *rcNameID: =PAPER_SIZE_DISPLAY
+    *DefaultOption: CUSTOMSIZE
+    *ConflictPriority: 1
+
+    *Option: Option1
+    {
+		*rcNameID: 1024
+		*PageDimensions: PAIR(2436, 4872)
+		*PrintableArea: PAIR(2432, 4872)
+		*PrintableOrigin: PAIR(0, 0)
+		*CursorOrigin: PAIR(0, 0)
+        *Command: CmdSelect
+      	{
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+      	}
+
+    }
+    *Option: Option2
+    {
+		*rcNameID: 1025
+		*PageDimensions: PAIR(4872, 4872)
+		*PrintableArea: PAIR(4872, 4872)
+		*PrintableOrigin: PAIR(0, 0)
+		*CursorOrigin: PAIR(0, 0)
+        *Command: CmdSelect
+      	{
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+      	}
+
+    }
+    *Option: Option3
+    {
+		*rcNameID: 1026
+		*PageDimensions: PAIR(4872, 7308)
+		*PrintableArea: PAIR(4872, 7308)
+		*PrintableOrigin: PAIR(0, 0)
+		*CursorOrigin: PAIR(0, 0)
+        *Command: CmdSelect
+      	{
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+      	}
+
+    }
+    *Option: Option4
+    {
+		*rcNameID: 1027
+		*PageDimensions: PAIR(3356, 2397)
+		*PrintableArea: PAIR(3352, 2397)
+		*PrintableOrigin: PAIR(0, 0)
+		*CursorOrigin: PAIR(0, 0)
+        *Command: CmdSelect
+      	{
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+      	}
+
+    }
+ 	*Option: CUSTOMSIZE
+    {
+        *rcNameID: =USER_DEFINED_SIZE_DISPLAY
+        *MinSize: PAIR(472, 288)
+        *MaxSize: PAIR(5760, 143860)
+        *MaxPrintableWidth: 5760
+        *MinLeftMargin: 0
+		*CustCursorOriginX: %d{0}
+		*CustCursorOriginY: %d{0}
+		*CustPrintableOriginX: %d{0}
+		*CustPrintableOriginY: %d{0}
+		*CustPrintableSizeX: %d{PhysPaperWidth }
+		*CustPrintableSizeY: %d{PhysPaperLength}
+        
+        *Command: CmdSelect
+        {
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+        }
+    }
+}
+
+
+*%*Feature: Halftone
+*%{
+*%    *rcNameID: =HALFTONING_DISPLAY
+*%    *DefaultOption: HT_PATSIZE_AUTO
+*%    *Option: HT_PATSIZE_AUTO
+*%    {
+*%        *rcNameID: =HT_AUTO_SELECT_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_SUPERCELL_M
+*%    {
+*%        *rcNameID: =HT_SUPERCELL_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_6x6_M
+*%    {
+*%        *rcNameID: =HT_DITHER6X6_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_8x8_M
+*%    {
+*%        *rcNameID: =HT_DITHER8X8_DISPLAY
+*%    }
+*%}
+
+*Feature: ColorMode
+{
+	*rcNameID: =COLOR_PRINTING_MODE_DISPLAY
+	*DefaultOption: Mono
+	*Option: Mono
+	{
+		*rcNameID: =MONO_DISPLAY
+		*DevNumOfPlanes: 0
+		*DevBPP: 0
+		*DrvBPP: 8
+		*IPCallbackID: 1
+		*Color?: FALSE
+	}
+}
+
+
+*Command: CmdStartDoc
+{
+    *Order: DOC_SETUP.1
+    *Cmd: ""
+}
+
+*Command: CmdEndJob
+{
+	  *Order: JOB_FINISH.1
+    *Cmd: ""
+}
+
+*Command: CmdStartPage
+{
+    *Order: PAGE_SETUP.2
+    *Cmd: ""
+}
+
+*Command: CmdEndPage
+{
+    *Order: PAGE_FINISH.1
+*%		*Cmd: "PRINT 1,1<0D0A>"
+}
+
+
+*RotateCoordinate?: FALSE
+*RotateRaster?: FALSE
+*RotateFont?: FALSE
+*switch: Orientation
+{
+    *case: PORTRAIT
+    {
+        *TextCaps: LIST(TC_OP_CHARACTER,TC_EA_DOUBLE,TC_IA_ABLE,TC_UA_ABLE,TC_RA_ABLE)
+    }
+    *case: LANDSCAPE_CC270
+    {
+        *TextCaps: LIST(TC_OP_CHARACTER,TC_RA_ABLE)
+    }
+}
+
+
+*%******************************************************************************************
+*%                                      Cursor and Page Commands
+*%******************************************************************************************
+*RotateCoordinate?: TRUE
+*RotateRaster?: TRUE
+*RotateFont?: TRUE
+*TextCaps: LIST(TC_CR_90,TC_UA_ABLE)
+*MemoryUsage: LIST(FONT, RASTER, VECTOR)
+*CursorXAfterCR: AT_PRINTABLE_X_ORIGIN
+*BadCursorMoveInGrxMode: LIST(X_PORTRAIT,Y_LANDSCAPE)
+*XMoveThreshold: 0
+*YMoveThreshold: 0
+*XMoveUnit: 1218
+*YMoveUnit: 1218
+*EjectPageWithFF?: TRUE
+*OutputDataFormat: H_BYTE
+*OptimizeLeftBound?: TRUE
+*CursorXAfterSendBlockData: AT_GRXDATA_ORIGIN
+*CursorYAfterSendBlockData: AUTO_INCREMENT
+
+*Command: CmdCR { *Cmd : "" }
+*Command: CmdLF { *Cmd : "" }
+*Command: CmdFF { *Cmd : "" }

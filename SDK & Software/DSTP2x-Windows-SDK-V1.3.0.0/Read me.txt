@@ -1,0 +1,2 @@
+API documentation and instructions: \DSTP2x-Windows-SDK-V1.3.0.0\doc\index-CN.html;
+SDK usage examples: \DSTP2x-Windows-SDK-V1.3.0.0\samplecode

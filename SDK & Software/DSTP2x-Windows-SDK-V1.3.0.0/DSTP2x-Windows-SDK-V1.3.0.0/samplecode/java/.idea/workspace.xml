@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d02e517-f6d6-495d-9705-026a6e8a76e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DSTP2xLib/src/main/java/com/dstp2x/DSTP2xLib/DSTP2xJnaLib.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Pua5agRgkwnjhkmeRHOFRNMhxn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java_Project\DSTP2x-Windows-SDK-Develop\1.1\samplecode\java\DSTP2xDemo\src\main\resources" />
+      <recent name="E:\ReleasePackage\DSTP2x-mpsdk-V1.1.0.0@Test3\DSTP2x-Windows-SDK-V1.1.0.0\1.1\samplecode\java\DSTP2xDemo\src\main\resources" />
+      <recent name="E:\Java_Project\DSTP2x_Windows_SDK_JavaSample\DSTP2xDemo\src\main\resources" />
+      <recent name="E:\Java_Project\DSTP2x_Windows_SDK_JavaSample\DSTP2xLib\lib\x32" />
+      <recent name="E:\Java_Project\DSTP2x_Windows_SDK_JavaSample\DSTP2xLib\lib\x64" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java_Project\DSCP2x_Windows_SDK_V1.2.0.0@Test3\src\samplecode\java\DSCP2xDemo\src\main\resources" />
+      <recent name="E:\AS_Project\Java_Call_Dll\DSCP2x\DSCP2xDemo\src\main\resources" />
+      <recent name="E:\AS_Project\Java_Call_Dll\DSCP2x\DSCP2xDemo\src\main\java\com\dascom\DSCP2xDemo" />
+      <recent name="E:\AS_Project\Java_Call_Dll\DSCP2x" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TransDataDirectlySample">
+    <configuration name="GetPrtInfoSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dstp2x.GetPrtInfo.GetPrtInfoSample" />
+      <module name="DSTP2xDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dstp2x.GetPrtInfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfPrint_RFIDSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dstp2x.PdfPrint_RFID.PdfPrint_RFIDSample" />
+      <module name="DSTP2xDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dstp2x.PdfPrint_RFID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplatePrintOnlySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dstp2x.TemplatePrintOnly.TemplatePrintOnlySample" />
+      <module name="DSTP2xDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dstp2x.TemplatePrintOnly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplatePrint_RFIDSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dstp2x.TemplatePrint_RFID.TemplatePrint_RFIDSample" />
+      <module name="DSTP2xDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dstp2x.TemplatePrint_RFID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransDataDirectlySample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dstp2x.TransDataDirectly.TransDataDirectlySample" />
+      <module name="DSTP2xDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dstp2x.TransDataDirectly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TransDataDirectlySample" />
+        <item itemvalue="Application.GetPrtInfoSample" />
+        <item itemvalue="Application.TemplatePrint_RFIDSample" />
+        <item itemvalue="Application.TemplatePrintOnlySample" />
+        <item itemvalue="Application.PdfPrint_RFIDSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\HYT\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d02e517-f6d6-495d-9705-026a6e8a76e5" name="Default Changelist" comment="" />
+      <created>1684309237910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684309237910</updated>
+      <workItem from="1684309240588" duration="4345000" />
+      <workItem from="1684314129306" duration="6573000" />
+      <workItem from="1684322609996" duration="594000" />
+      <workItem from="1684324819013" duration="23715000" />
+      <workItem from="1684399477278" duration="588000" />
+      <workItem from="1684458265336" duration="1089000" />
+      <workItem from="1684460351149" duration="21533000" />
+      <workItem from="1684490999256" duration="8470000" />
+      <workItem from="1684500148686" duration="1135000" />
+      <workItem from="1684755382514" duration="7268000" />
+      <workItem from="1684932150482" duration="9012000" />
+      <workItem from="1685027263892" duration="630000" />
+      <workItem from="1685032531051" duration="1206000" />
+      <workItem from="1685345954162" duration="29000" />
+      <workItem from="1685428216122" duration="14170000" />
+      <workItem from="1685446029321" duration="173000" />
+      <workItem from="1685536130542" duration="83000" />
+      <workItem from="1685538571632" duration="3258000" />
+      <workItem from="1685673968957" duration="1876000" />
+      <workItem from="1686278739365" duration="534000" />
+      <workItem from="1686297898718" duration="1013000" />
+      <workItem from="1686301474610" duration="1547000" />
+      <workItem from="1687344041495" duration="220000" />
+      <workItem from="1692276954048" duration="1047000" />
+      <workItem from="1694605915934" duration="1356000" />
+      <workItem from="1695714936548" duration="2882000" />
+      <workItem from="1695867600501" duration="2511000" />
+      <workItem from="1695882523877" duration="5800000" />
+      <workItem from="1695917732252" duration="2738000" />
+      <workItem from="1702954829255" duration="820000" />
+      <workItem from="1716986341664" duration="2207000" />
+      <workItem from="1716988609753" duration="26779000" />
+      <workItem from="1717024229994" duration="1691000" />
+      <workItem from="1717026428242" duration="5136000" />
+      <workItem from="1717123451699" duration="5401000" />
+      <workItem from="1717202435250" duration="8913000" />
+      <workItem from="1717211848015" duration="20795000" />
+      <workItem from="1717241087165" duration="3000000" />
+      <workItem from="1717244536290" duration="17927000" />
+      <workItem from="1717267926325" duration="19300000" />
+      <workItem from="1717289692547" duration="92000" />
+      <workItem from="1717374605229" duration="10036000" />
+      <workItem from="1717386109766" duration="24242000" />
+      <workItem from="1717417589985" duration="2746000" />
+      <workItem from="1717421236735" duration="38049000" />
+      <workItem from="1717513946240" duration="29781000" />
+      <workItem from="1717592456207" duration="580000" />
+      <workItem from="1717593758911" duration="639000" />
+      <workItem from="1717595521595" duration="27661000" />
+      <workItem from="1717632475045" duration="7074000" />
+      <workItem from="1717642204905" duration="33000" />
+      <workItem from="1717642337768" duration="778000" />
+      <workItem from="1717837499304" duration="1915000" />
+      <workItem from="1718584983432" duration="8722000" />
+      <workItem from="1722533393483" duration="751000" />
+      <workItem from="1722534182415" duration="15292000" />
+      <workItem from="1722553162156" duration="2080000" />
+      <workItem from="1722555612703" duration="21688000" />
+      <workItem from="1722818455091" duration="18094000" />
+      <workItem from="1722853510903" duration="7129000" />
+      <workItem from="1722861131798" duration="3307000" />
+      <workItem from="1722872550353" duration="3672000" />
+      <workItem from="1722880470970" duration="2658000" />
+      <workItem from="1722941000231" duration="363000" />
+      <workItem from="1723813083337" duration="7244000" />
+      <workItem from="1724338755194" duration="5630000" />
+      <workItem from="1724418724761" duration="7567000" />
+      <workItem from="1724875322566" duration="636000" />
+      <workItem from="1724891877426" duration="244000" />
+      <workItem from="1724902887845" duration="2518000" />
+      <workItem from="1725041628544" duration="5488000" />
+      <workItem from="1725056098679" duration="1244000" />
+      <workItem from="1725239571064" duration="30000" />
+      <workItem from="1725242170900" duration="667000" />
+      <workItem from="1728408232885" duration="1469000" />
+      <workItem from="1728419393254" duration="15123000" />
+      <workItem from="1728582890926" duration="444000" />
+      <workItem from="1728587522252" duration="3025000" />
+      <workItem from="1728717659887" duration="1646000" />
+      <workItem from="1728924877371" duration="2479000" />
+      <workItem from="1729043487475" duration="316000" />
+      <workItem from="1729044428192" duration="548000" />
+      <workItem from="1729079011787" duration="12749000" />
+      <workItem from="1729593971884" duration="926000" />
+      <workItem from="1729731031171" duration="5135000" />
+      <workItem from="1730119448317" duration="1249000" />
+      <workItem from="1731306269659" duration="2053000" />
+      <workItem from="1731947226641" duration="1108000" />
+      <workItem from="1732086897043" duration="659000" />
+      <workItem from="1732694560219" duration="2120000" />
+      <workItem from="1733728229988" duration="11622000" />
+      <workItem from="1734597268033" duration="6606000" />
+      <workItem from="1734956104800" duration="1146000" />
+      <workItem from="1735139551112" duration="1786000" />
+      <workItem from="1735304748978" duration="36000" />
+      <workItem from="1735852784278" duration="4244000" />
+      <workItem from="1736158988133" duration="2343000" />
+      <workItem from="1736218021617" duration="2427000" />
+      <workItem from="1736331714278" duration="2208000" />
+      <workItem from="1736479208302" duration="6927000" />
+      <workItem from="1736506792844" duration="9000000" />
+      <workItem from="1736736418386" duration="9849000" />
+      <workItem from="1737337358143" duration="1064000" />
+      <workItem from="1737364934260" duration="3612000" />
+      <workItem from="1737370396104" duration="4868000" />
+      <workItem from="1737420398418" duration="6199000" />
+      <workItem from="1737526515349" duration="6923000" />
+      <workItem from="1737553493832" duration="78000" />
+      <workItem from="1737553919442" duration="3206000" />
+      <workItem from="1738733643093" duration="5320000" />
+      <workItem from="1738740565963" duration="1272000" />
+      <workItem from="1738744527278" duration="195000" />
+      <workItem from="1738745062586" duration="58000" />
+      <workItem from="1738748167965" duration="6683000" />
+      <workItem from="1738932052815" duration="16910000" />
+      <workItem from="1739148722925" duration="9069000" />
+      <workItem from="1739175838385" duration="9119000" />
+      <workItem from="1739234621087" duration="4991000" />
+      <workItem from="1739242385568" duration="14418000" />
+      <workItem from="1739272765736" duration="4374000" />
+      <workItem from="1739528684773" duration="882000" />
+      <workItem from="1739530396782" duration="232000" />
+      <workItem from="1739530697128" duration="673000" />
+      <workItem from="1739604684661" duration="1531000" />
+      <workItem from="1739696473997" duration="646000" />
+      <workItem from="1739697951650" duration="509000" />
+      <workItem from="1739764135646" duration="1109000" />
+      <workItem from="1739765479762" duration="695000" />
+      <workItem from="1739787229938" duration="3349000" />
+      <workItem from="1739793323239" duration="8925000" />
+      <workItem from="1739826318167" duration="146000" />
+      <workItem from="1739944524751" duration="165000" />
+      <workItem from="1740100059566" duration="3651000" />
+      <workItem from="1740107603238" duration="1969000" />
+      <workItem from="1740133402686" duration="542000" />
+      <workItem from="1740361477763" duration="46000" />
+      <workItem from="1740361735309" duration="7872000" />
+      <workItem from="1740424008652" duration="318000" />
+      <workItem from="1740548540053" duration="790000" />
+      <workItem from="1740549854162" duration="1255000" />
+      <workItem from="1740552676289" duration="598000" />
+      <workItem from="1740557068103" duration="4853000" />
+      <workItem from="1740624147834" duration="4012000" />
+      <workItem from="1741048930214" duration="890000" />
+      <workItem from="1741616654353" duration="2485000" />
+      <workItem from="1741746303498" duration="630000" />
+      <workItem from="1742355242183" duration="121000" />
+      <workItem from="1742473831099" duration="444000" />
+      <workItem from="1742880475228" duration="279000" />
+      <workItem from="1742889238847" duration="970000" />
+      <workItem from="1742894358636" duration="2658000" />
+      <workItem from="1743054609052" duration="113000" />
+      <workItem from="1744032177913" duration="538000" />
+      <workItem from="1745311318851" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/jsonDemo/Other/TestJson.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/DSCP2xDemo/BaseSample.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/cApiDemo/DualSidedPrinting/DualSidePrintCApiSample.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/jsonDemo/ICCardEncoding/ContactICJsonSample.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/cApiDemo/ConsumableQueny/ConsumableQueryCApiSample.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/jsonDemo/MagCardEncoding/MagCardEncodingJsonSample.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/jsonDemo/CardMovement/CardMovementJsonSample.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/jsonDemo/CardMovement/CardMovementJsonSample.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/cApiDemo/SingleSidedPrinting/SingleSidePrintCApiSample.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/PdfPrintOnly/PdfPrintOnlySample.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/PdfPrint_RFID/PdfPrint_RFIDSample.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/ReadTid_DrawPrint_RFID/ReadTid_DrawPrint_RFIDSample.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/TransDataDirectly/TransDataDirectlySample.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/TemplatePrintOnly/TemplatePrintOnlySample.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/TemplatePrint_RFID/TemplatePrint_RFIDSample.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/DrawPrintOnly/Image/ImageSample.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/DrawPrint_RFID/DrawPrint_RFID_2Sample.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/DrawPrint_RFID/DrawPrint_RFID_2Sample.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/DrawPrintOnly/Image/ImageSample.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSTP2xDemo/src/main/java/com/dstp2x/Other/MultiPrinterPrintSample.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

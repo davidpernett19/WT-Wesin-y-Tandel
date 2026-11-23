@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSTP2x.iml" filepath="$PROJECT_DIR$/DSTP2x.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSTP2xDemo/DSTP2xDemo.iml" filepath="$PROJECT_DIR$/DSTP2xDemo/DSTP2xDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSTP2xLib/DSTP2xLib.iml" filepath="$PROJECT_DIR$/DSTP2xLib/DSTP2xLib.iml" />
+    </modules>
+  </component>
+</project>

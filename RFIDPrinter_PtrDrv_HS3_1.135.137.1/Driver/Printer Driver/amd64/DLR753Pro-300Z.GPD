@@ -1,0 +1,230 @@
+*GPDSpecVersion: "1.0"
+*Include: "StdNames.gpd"
+*GPDFileVersion: "1.128.0"
+*GPDFileName: "DLR753Pro-300Z.GPD"
+*ModelName: "RFID Printer DLR-753Pro-300DPI ZPL"
+*MasterUnits: PAIR(22800, 22800)
+*ResourceDLL: "RFIDPTRINDUI.dll"
+*PrinterType: PAGE
+*MaxCopies: 250
+
+*Feature: Orientation
+{
+    *rcNameID: =ORIENTATION_DISPLAY
+    *DefaultOption: PORTRAIT
+    *Option: PORTRAIT
+    {
+        *rcNameID: =PORTRAIT_DISPLAY
+    }
+    *Option: LANDSCAPE_CC270
+    {
+        *rcNameID: =LANDSCAPE_DISPLAY
+    }
+}
+*Feature: InputBin
+{
+    *rcNameID: =PAPER_SOURCE_DISPLAY
+		*ConcealFromUI? : TRUE
+    *DefaultOption: ROLLER
+    *Option: ROLLER
+    {
+        *rcNameID: 999
+    }
+}
+
+
+*Feature: Resolution
+{
+    *rcNameID: =RESOLUTION_DISPLAY
+    *DefaultOption: Option1
+    *Option: Option1
+    {
+        *Name: "300 x 300 " =DOTS_PER_INCH
+        *DPI: PAIR(300, 300)
+        *TextDPI: PAIR(300, 300)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 				*Command: CmdEndBlockData { *Cmd : "" }
+    }
+    *Option: Option2
+    {
+        *Name: "304 x 304 " =DOTS_PER_INCH
+        *DPI: PAIR(304, 304)
+        *TextDPI: PAIR(304, 304)
+	      *MinStripBlankPixels: 32
+	      EXTERN_GLOBAL: *StripBlanks: LIST(ENCLOSED,TRAILING)
+        *SpotDiameter: 100
+        *Command: CmdSendBlockData { *Cmd : "" }
+ 		*Command: CmdEndBlockData { *Cmd : "" }
+    }
+}
+
+*Feature: PaperSize
+{
+    *rcNameID: =PAPER_SIZE_DISPLAY
+    *DefaultOption: CUSTOMSIZE
+    *ConflictPriority: 1
+
+    *Option: Option1
+    {
+		*rcNameID: 1024
+		*PageDimensions: PAIR(45600, 91200)
+		*PrintableArea: PAIR(45600, 91200)
+		*PrintableOrigin: PAIR(0, 0)
+		*CursorOrigin: PAIR(0, 0)
+        *Command: CmdSelect
+      	{
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+      	}
+
+    }
+
+	*Option: CUSTOMSIZE
+    {
+        *rcNameID: =USER_DEFINED_SIZE_DISPLAY
+        *MinSize: PAIR(17480, 5472)
+        *MaxSize: PAIR(107692, 2280000)
+        *MaxPrintableWidth: 94848 
+        *MinLeftMargin: 0
+		*CustCursorOriginX: %d{0}
+		*CustCursorOriginY: %d{0}
+		*CustPrintableOriginX: %d{0}
+		*CustPrintableOriginY: %d{0}
+		*CustPrintableSizeX: %d{PhysPaperWidth }
+		*CustPrintableSizeY: %d{PhysPaperLength}
+        
+        *Command: CmdSelect
+        {
+          	*Order: PAGE_SETUP.1
+          	*Cmd: ""
+        }
+    }
+}
+
+
+*%*Feature: Halftone
+*%{
+*%    *rcNameID: =HALFTONING_DISPLAY
+*%    *DefaultOption: HT_PATSIZE_AUTO
+*%    *Option: HT_PATSIZE_AUTO
+*%    {
+*%        *rcNameID: =HT_AUTO_SELECT_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_SUPERCELL_M
+*%    {
+*%        *rcNameID: =HT_SUPERCELL_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_6x6_M
+*%    {
+*%        *rcNameID: =HT_DITHER6X6_DISPLAY
+*%    }
+*%    *Option: HT_PATSIZE_8x8_M
+*%    {
+*%        *rcNameID: =HT_DITHER8X8_DISPLAY
+*%    }
+*%}
+
+*Feature: ColorMode
+{
+	*rcNameID: =COLOR_PRINTING_MODE_DISPLAY
+	*DefaultOption: Mono
+	*Option: Mono
+	{
+		*rcNameID: =MONO_DISPLAY
+		*DevNumOfPlanes: 0
+		*DevBPP: 0
+		*DrvBPP: 24
+		*IPCallbackID: 1
+		*Color?: FALSE
+	}
+}
+
+
+*Command: CmdStartDoc
+{
+    *Order: DOC_SETUP.1
+    *Cmd: ""
+}
+
+*Command: CmdEndJob
+{
+	  *Order: JOB_FINISH.1
+    *Cmd: ""
+}
+
+*Command: CmdStartPage
+{
+    *Order: PAGE_SETUP.2
+    *Cmd: ""
+}
+
+*Command: CmdEndPage
+{
+    *Order: PAGE_FINISH.1
+*%		*Cmd: "PRINT 1,1<0D0A>"
+}
+
+
+*RotateCoordinate?: FALSE
+*RotateRaster?: FALSE
+*RotateFont?: FALSE
+*switch: Orientation
+{
+    *case: PORTRAIT
+    {
+        *TextCaps: LIST(TC_OP_CHARACTER,TC_EA_DOUBLE,TC_IA_ABLE,TC_UA_ABLE,TC_RA_ABLE)
+    }
+    *case: LANDSCAPE_CC270
+    {
+        *TextCaps: LIST(TC_OP_CHARACTER,TC_RA_ABLE)
+    }
+}
+
+
+*DefaultFont: 145
+*DefaultCTT: 0
+*switch: Orientation
+{
+    *case: PORTRAIT
+    {
+        *DeviceFonts: LIST(145,146,147,148,149,150,151,152,153,154,175,176,177,178,179,180,181,182,183,184,
++						   205,206,207,208,209,210,211,212,213,214,235,236,237,238,239,240,241,242,243,244,
++						   265,266,267,268,269,270,271,272,273,274,295,296,297,298,299,300,301,302,303,304,
++						   325,326,327,328,329,330,331,332,333,334,355,356,357,358,359,360,361,362,363,364)
+    }
+    *case: LANDSCAPE_CC270
+    {
+        *DeviceFonts: LIST(145,146,147,148,149,150,151,152,153,154,175,176,177,178,179,180,181,182,183,184,
++						   205,206,207,208,209,210,211,212,213,214,235,236,237,238,239,240,241,242,243,244,
++						   265,266,267,268,269,270,271,272,273,274,295,296,297,298,299,300,301,302,303,304,
++						   325,326,327,328,329,330,331,332,333,334,355,356,357,358,359,360,361,362,363,364)
+    }
+}
+
+
+*%******************************************************************************************
+*%                                      Cursor and Page Commands
+*%******************************************************************************************
+*RotateCoordinate?: TRUE
+*RotateRaster?: TRUE
+*RotateFont?: TRUE
+*TextCaps: LIST(TC_CR_90,TC_UA_ABLE)
+*MemoryUsage: LIST(FONT, RASTER, VECTOR)
+*CursorXAfterCR: AT_PRINTABLE_X_ORIGIN
+*BadCursorMoveInGrxMode: LIST(X_PORTRAIT,Y_LANDSCAPE)
+*XMoveThreshold: 0
+*YMoveThreshold: 0
+*XMoveUnit: 22800
+*YMoveUnit: 22800
+*EjectPageWithFF?: TRUE
+*OutputDataFormat: H_BYTE
+*OptimizeLeftBound?: TRUE
+*CursorXAfterSendBlockData: AT_GRXDATA_ORIGIN
+*CursorYAfterSendBlockData: AUTO_INCREMENT
+
+*Command: CmdCR { *Cmd : "" }
+*Command: CmdLF { *Cmd : "" }
+*Command: CmdFF { *Cmd : "" }
